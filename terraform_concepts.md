@@ -63,7 +63,7 @@ Configures the backend for Terraform state management.
 
 **Key Components:**
 - **`terraform` block with `backend "s3"`:**  
-  - Stores state file in S3 bucket `mundose22`
+  - Stores state file in S3 bucket `mundose-terraform-state-2025`
   - Sets region to `us-east-1`
   - Uses DynamoDB table `terraformstatelock` for state locking
 
